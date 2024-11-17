@@ -1,0 +1,16 @@
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Email đã được đăng ký!</p>
+  </div>
+</div>
+
+<th:block th:if="${emailRegistered}">
+  <!-- Nếu email đã được đăng ký, hiển thị modal -->
+  <!-- <script th:inline="javascript">
+    document.addEventListener("DOMContentLoaded", function () {
+      var modal = document.getElementById("myModal");
+      modal.style.display = "block"; // Hiển thị modal
+    });
+  </script> -->
+</th:block>
